@@ -15,9 +15,11 @@ public class Problem_0138_CopyListWithRandomPointer {
 	}
 
 	public static Node copyRandomList(Node head) {
+
 		if (head == null) {
 			return null;
 		}
+		
 		Node cur = head;
 		Node next = null;
 		while (cur != null) {
